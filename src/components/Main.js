@@ -81,7 +81,7 @@ class Main extends React.Component {
                 <TextField
                     id="standard-number"
                     error={this.state.error}
-                    label="Number"
+                    label="Your Number"
                     type="number"
                     value={this.state.input}
                     onChange={this.onInputChange}
